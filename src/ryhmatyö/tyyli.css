@@ -1,0 +1,19 @@
+body {
+    padding:10px;
+    font-size:16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(199, 199, 199);
+}
+form{
+    background-color: rgb(187, 222, 234);
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+}
+div{
+    border: 1px solid black;
+    background-color: rgb(187, 222, 234);
+    width:max-content;
+}
+

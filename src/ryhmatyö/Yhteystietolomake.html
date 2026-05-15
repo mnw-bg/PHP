@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tyyli.css">
+        <title>Yhteystiedot</title>
+    </head>
+    <body>
+        <form action="./Yhteystietolomake.php" method="post">
+            <label for="nimi">Nimi</label><br>
+            <input type="text" id="nimi" name="nimi" required><br>
+            <br>
+            <label for="sahkoposti">Sähköposti</label><br>
+            <input type="text" id="sahkoposti" name="sahkoposti" required><br>
+            <br>
+            <label for="viesti">Viesti</label><br>
+            <textarea name="viesti" id="viesti" rows="5" cols="40"></textarea><br>
+            <br>
+            <button type="submit">Lähetä</button>
+            <button type="reset">Nollaa</button>
+        </form>
+    </body>
+</html>
