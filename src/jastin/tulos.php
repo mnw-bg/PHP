@@ -12,6 +12,6 @@ if (isset($_GET['start']))
     }
     else
     {
-        echo "Aloitusaika tai lopetusaika puuttuu."
+        echo "Aloitusaika tai lopetusaika puuttuu.";
     }
 ?>

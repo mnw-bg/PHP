@@ -13,7 +13,6 @@
 if (isset($_GET['start']))
     {
         $start = $_GET['start'];
-
         echo "<p>Ajastin on käyniss. </p>";
     }else
     {
