@@ -2,13 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>pallo</title>
-</head>
-<body>
-<form action="./muunna.php" method="POST">
-    <input type="radio" id="radio" name="radio">
-</form>
+    <title>lämpötilamuunna</title>
+    <style>
+        form {
+            background-color: rgb(213, 255, 255);
+            width:max-content;
+            padding: 10px;
+            border: 1px solid black;
+        }
 
+
+    </style>
+</head>
+<body >
+<form action="./muunna.php" method="POST">
+    <label for="numero">aseta numero:</label><br>
+    <input type="number" id="numero" name="lampotila" step="0.1" required><br><br>
+    <input type="radio" id="f" name="suunta" value="CtoF" required>Celcius to Fehrenheit</input><br>
+    <input type="radio" id="c" name="suunta" value="FtoC" required>Fehrenheit to Celcius</input>
+    <br><br>
+    <div>
+        <button type="submit" value="Muunna">Laskee</button>
+        <button type="reset">reset</button>
+    </div>
+</form>
+ 
 </form>
 </body>
 </html>

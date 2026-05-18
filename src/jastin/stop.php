@@ -13,9 +13,9 @@
 if (isset($_GET['start']))
     {
         $start = $_GET['start'];
-
-        echo "<p>Ajastin on käyniss. </p>";
-    }else
+        echo "<p>Ajastin on käyniss.</p>";
+    }
+    else
     {
         echo "Ajastin ei ole käynnissä tai alotusaika puuttuu.";
     }
