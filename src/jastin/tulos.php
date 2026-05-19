@@ -14,4 +14,9 @@
     // {
     //     echo "Aloitusaika tai lopetusaika puuttuu.";
     // }
+    
+    // else
+    // {
+    //     echo "Aloitusaika tai lopetusaika puuttuu.";
+    // }
 ?>
