@@ -9,10 +9,10 @@
     <title>lämpötilamuunna</title>
 </head>
 <body >
-<form action="" method="POST">
-    <header>LÄMPÖTILA MUUNNOS</header>
-    <br>
-    <div class="yksikko">
+<form action="lampotila.php" method="POST">
+    <label for="">Lämpötila muunnos</label>
+    <br><br>
+    <div class="container" id="valikkoo">
         <label for="mist">Mistä</label>
         <select name="mist" id="mist">
             <option value="c" selected>Celcius</option>
@@ -27,17 +27,13 @@
             <option value="f">Ferenheit</option>
             <option value="k" selected>Kelvin</option>
         </select>
-    </div>
-        <br>
-
-        <label for="luku">Syötä luku</label>
-        <input type="number" id="luku" value="">
         <br><br>
-
-    <div class="btn">
-        <button type="submit" value="Muunna">Laskee</button>
-        <button type="reset">reset</button>
+        <label for="luku">aseta luku</label>
+        <input type="number" id="luku" name="lampotila" step="0.1" required>
     </div>
+    <button type="submit" value="Muunna">Laskee</button>
+</form>
+ 
 </form>
 </body>
 </html>
