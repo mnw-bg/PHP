@@ -14,10 +14,10 @@
             padding-right: 100px;
             border: 1px solid black;
         }
-    </style>h
+    </style>
 </head>
 <body >
-<form action="" method="POST">
+<form action="lampotila.php" method="POST">
     <label for="">Lämpötila muunnos</label>
     <br><br>
     <div class="container" id="valikkoo">
@@ -36,8 +36,9 @@
         </select>
         <br><br>
         <label for="luku">aseta luku</label>
-        <input type="number" id="luku" value="">
+        <input type="number" id="luku" name="lampotila" step="0.1" required>
     </div>
+    <button type="submit" value="Muunna">Laskee</button>
 </form>
  
 </form>
