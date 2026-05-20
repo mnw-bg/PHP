@@ -1,0 +1,22 @@
+    form {
+        background-color: rgb(213, 255, 255);
+        width:max-content;
+        padding: 40px;
+        border: 1px solid black;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        gap: 10PX;
+    }
+    .yksikko{
+        gap: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
