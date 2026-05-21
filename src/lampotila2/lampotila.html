@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
     <title>lämpötilamuunna</title>
-    <style>
-        form {
-            background-color: rgb(213, 255, 255);
-            width:max-content;
-            padding: 20px;
-            padding-right: 100px;
-            border: 1px solid black;
-        }
-    </style>
 </head>
 <body >
 <form action="lampotila.php" method="POST">
     <label for="">Lämpötila muunnos</label>
     <br><br>
     <div class="container" id="valikkoo">
+<<<<<<< HEAD
+=======
+        <label for="mist">Mistä</label>
+        <select name="mist" id="mist">
+            <option value="c" selected>Celcius</option>
+            <option value="f">Ferenheit</option>
+            <option value="k">Kelvin</option>
+        </select>
+    </div>
+    <div class="yksikko">
+>>>>>>> 05daa6ce84a35719e28fc46a0c7056bb8e2a10b7
         <label for="minn">Minne</label>
         <select name="minn" id="minn">
             <option value="c">Celcius</option>
