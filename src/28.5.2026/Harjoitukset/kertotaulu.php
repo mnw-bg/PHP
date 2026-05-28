@@ -9,7 +9,7 @@
     <?php
     echo "<h1>Kertotaulu</h1>";
 
-    for ($i = 1;$i<=10;$i++){
+    for ($i = 1;$i<=10;$i=$i+1){
         $tulos = 7 * $i;
         echo "<p>7 x $i = $tulos</p>";
     }
